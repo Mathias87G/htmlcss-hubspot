@@ -9,3 +9,73 @@
     clear: both;
     display: table;
 }
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fixed {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+
+.grey {
+  background-color: #f5f8fa;
+}
+
+.language, .contact {
+  height: 70px;
+  float: left;
+  line-height: 70px;
+  padding-right: 40px;
+}
+
+.language a, .contact a {
+  color: #32495b;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.fa-search {
+  color: #00a4bd;
+}
+
+.login {
+  float: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+.login a {
+  padding-right: 15px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+#login {
+  font-size: 20px;
+  color: #ff7a59;
+  border: 1px solid #ff7a59;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#ghsf {
+  font-size: 20px;
+  color: white;
+  border: 1px solid #ff7a59;
+  background-color: #ff7a59;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
