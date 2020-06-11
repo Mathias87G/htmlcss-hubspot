@@ -33,7 +33,7 @@
   height: 70px;
   float: left;
   line-height: 70px;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 .language a, .contact a {
@@ -41,6 +41,11 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+}
+
+.line {
+  border-right: 1px solid #cbd6e2;
+  padding-right: 20px;
 }
 
 .fa-search {
@@ -78,4 +83,82 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* Menu */
+
+.menu {
+  margin-top: 70px;
+  height: 70px;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+.logo {
+  float:left;
+}
+
+.logo img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.menu ul{
+  float: right;
+}
+
+.menu ul li {
+  float: left;
+  color: #32495b;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+/* Banner */
+
+.pink {
+  background-image: url("../img/kn.png");
+  background-size: cover;
+  height: 650px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 40%;
+  font-family: 'Maven Pro', sans-serif;
+  padding-top: 40px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  line-height: 55px;
+  color: #33475b;
+}
+
+.banner h3 {
+  margin: 25px 0;
+  font-size: 15px;
+  color: #33475b;
+  line-height: 25px;
+}
+
+.banner h5 {
+  margin: 25px 0;
+  font-size: 12px;
+  color: #33475b;
+}
+
+#ghsfbig {
+    font-size: 20px;
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
