@@ -126,6 +126,7 @@
   height: 650px;
   background-position: right;
   background-repeat: no-repeat;
+  border-bottom: 3px solid #33475b;
 }
 
 .banner {
@@ -154,11 +155,34 @@
 }
 
 #ghsfbig {
+    font-family: 'Maven Pro', sans-serif;
     font-size: 20px;
     color: white;
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* First section */
+
+.powerful {
+  font-family: 'Maven Pro', sans-serif;
+  color: #33475b;
+  text-align: center;
+  padding: 40px 0
+}
+
+.cube img {
+  height: 200px;
+}
+
+.cube h2 {
+  font-size: 30px;
+}
+
+.cube h3 {
+  padding-top: 40px;
+  font-size: 15px;
 }
