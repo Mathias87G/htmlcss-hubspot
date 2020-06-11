@@ -23,6 +23,7 @@
   position: fixed;
   top: 0;
   border-bottom: 1px solid black;
+  z-index: 9999999;
 }
 
 .grey {
@@ -114,7 +115,7 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
   cursor: pointer;
 }
 
@@ -141,7 +142,7 @@
   color: #33475b;
 }
 
-.banner h3 {
+.banner h4 {
   margin: 25px 0;
   font-size: 15px;
   color: #33475b;
@@ -182,7 +183,99 @@
   font-size: 30px;
 }
 
-.cube h3 {
+.cube h4 {
   padding-top: 40px;
   font-size: 15px;
+}
+
+.book {
+  background-color: white;
+  border: 1px solid #e6ecf1;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.split-first {
+  width: 35%;
+  height: 350px;
+  float: left;
+  position: relative;
+}
+
+.target {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.learn {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #ff7a59;
+  background-color: #ff7a59;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.target img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.split-second {
+  width: 55%;
+  height: 350px;
+  float: left;
+  color: #33475b;
+  font-family: 'Maven Pro', sans-serif;
+  position: relative;
+}
+
+.crm {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.crm h3 {
+  font-size: 25px;
+}
+
+.crm h4 {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.feature hr, .feature h4 {
+  display: inline-block;
+}
+
+.feature hr {
+  width: 55%;
+  margin-bottom: 3px;
+  margin-left: 40px;
+}
+
+.crm ul {
+  margin-top: 20px;
+}
+
+.crm ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.crm ul li i {
+  color: #ff7a59;
+  padding-right: 8px;
+}
+
+.cards {
+  height: 500px;
+  background-color: black;
 }
