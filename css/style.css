@@ -284,6 +284,10 @@ h2 {
   padding-right: 8px;
 }
 
+.cards {
+  padding-bottom: 40px;
+}
+
 .card {
   height: 100%;;
   width: 33.33333%;
@@ -541,6 +545,8 @@ border-color: #cbd6e2;
   padding: 0 8px;
   cursor: pointer;
 }
+
+/* Hovers */
 
 #login:hover, #ghsf:hover, .ghsfbig:hover, .learn:hover, #contact:hover {
   opacity: 0.6
