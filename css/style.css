@@ -74,6 +74,8 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 1;
+  transition: 2s;
 }
 
 #ghsf {
@@ -84,6 +86,8 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 1;
+  transition: 2s
 }
 
 /* Menu */
@@ -164,6 +168,8 @@
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
+    opacity: 1;
+    transition: 2s;
 }
 
 /* First section */
@@ -219,6 +225,8 @@ h2 {
   padding: 20px;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 1;
+  transition: 2s;
 }
 
 .target img {
@@ -479,7 +487,8 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Maven Pro', sans-serif;
-
+  opacity: 1;
+  transition: 2s;
 }
 
 .icons li {
@@ -530,4 +539,13 @@ border-color: #cbd6e2;
   list-style: none;
   font-weight: bold;
   padding: 0 8px;
+  cursor: pointer;
+}
+
+#login:hover, #ghsf:hover, .ghsfbig:hover, .learn:hover, #contact:hover {
+  opacity: 0.6
+}
+
+.column ul li:hover, .languages li:hover, .policy ul li:hover {
+  color: rgb(61, 143, 195);
 }
