@@ -322,7 +322,6 @@ h2 {
 
 .turquoise {
   background-image: linear-gradient(to right, #00aab9 , #00b8aa);
-  height: 400px;
   font-family: 'Maven Pro', sans-serif;
   text-align: center;
   color: white;
@@ -330,4 +329,43 @@ h2 {
 
 .community h2, .community h4 {
   padding: 50px 10px 0 10px;
+}
+
+.row {
+  color: white;
+}
+
+.up {
+  border-bottom: 1px solid white;
+  padding-top: 30px;
+}
+
+.down {
+  padding-bottom: 50px;
+}
+
+.cell {
+  width: 25%;
+  float:left;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.cell img {
+  height: 40px;
+}
+
+.cell h2 {
+  font-size: 50px;
+}
+
+.cell h2::after {
+  content: " + ";
+  font-size: 25px;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
+.cell:not(:last-child) {
+  border-right: 1px solid white;
 }
