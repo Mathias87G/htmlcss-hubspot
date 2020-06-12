@@ -179,7 +179,7 @@
   height: 200px;
 }
 
-.cube h2 {
+h2 {
   font-size: 30px;
 }
 
@@ -207,6 +207,7 @@
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .learn {
@@ -240,7 +241,7 @@
   transform: translateY(-50%);
 }
 
-.crm h3 {
+.crm h3, .card h3{
   font-size: 25px;
 }
 
@@ -270,12 +271,63 @@
   font-weight: 500;
 }
 
-.crm ul li i {
+.crm ul li i, .box ol li i {
   color: #ff7a59;
   padding-right: 8px;
 }
 
-.cards {
-  height: 500px;
-  background-color: black;
+.card {
+  height: 100%;;
+  width: 33.33333%;
+  float: left;
+}
+
+.sx {
+  padding-right: 10px;
+}
+
+.cx {
+  padding: 0 10px;
+}
+
+.dx {
+  padding-left: 10px;
+}
+
+.box {
+  padding: 20px 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e6ecf1;
+  color: #33475b;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.box img {
+  height: 100px;
+}
+
+.box ol {
+  list-style: none;
+  text-align: left;
+  font-weight: 500;
+}
+
+.box h3, .box h4, .box ol {
+  padding: 20px 0;
+}
+
+/* Second section */
+
+.turquoise {
+  background-image: linear-gradient(to right, #00aab9 , #00b8aa);
+  height: 400px;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.community h2, .community h4 {
+  padding: 50px 10px 0 10px;
 }
