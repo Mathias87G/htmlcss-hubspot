@@ -45,8 +45,44 @@
 }
 
 .line {
-  border-right: 1px solid #cbd6e2;
-  padding-right: 20px;
+  position: relative
+}
+
+.language-curtain {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.language-curtain ul li {
+  list-style: none;
+  color: #32495b;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0 22px;
+}
+
+.triangle {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 30.0px;
+  right: 3px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  visibility: hidden;
+}
+
+#contacts {
+  border-left: 1px solid #cbd6e2;
+  padding-left: 20px;
 }
 
 .fa-search {
@@ -67,7 +103,7 @@
 }
 
 #login {
-  font-size: 20px;
+  font-size: 18px;
   color: #ff7a59;
   border: 1px solid #ff7a59;
   background-color: white;
@@ -75,11 +111,11 @@
   border-radius: 5px;
   cursor: pointer;
   opacity: 1;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 #ghsf {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   border: 1px solid #ff7a59;
   background-color: #ff7a59;
@@ -87,7 +123,7 @@
   border-radius: 5px;
   cursor: pointer;
   opacity: 1;
-  transition: 2s
+  transition: 1.5s
 }
 
 /* Menu */
@@ -169,7 +205,7 @@
     border-radius: 5px;
     cursor: pointer;
     opacity: 1;
-    transition: 2s;
+    transition: 1.5s;
 }
 
 /* First section */
@@ -226,7 +262,7 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   opacity: 1;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .target img {
@@ -391,7 +427,7 @@ h2 {
 .spt {
   font-family: 'Maven Pro', sans-serif;
   color: #33475b;
-  width: 30%;
+  width: 25%;
   padding: 30px 50px;
   text-align: center;
   float: left;
@@ -411,7 +447,7 @@ h2 {
 
 .cell-logo {
   height: 100px;
-  width: 150px;
+  width: 25%;
   float: left;
   position: relative;
 }
@@ -492,7 +528,7 @@ h2 {
   cursor: pointer;
   font-family: 'Maven Pro', sans-serif;
   opacity: 1;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .icons li {
@@ -554,4 +590,12 @@ border-color: #cbd6e2;
 
 .column ul li:hover, .languages li:hover, .policy ul li:hover {
   color: rgb(61, 143, 195);
+}
+
+.language-curtain ul li:hover {
+  background-color: rgb(161, 192, 203);
+}
+
+.language:hover .language-curtain, .language:hover .triangle {
+  visibility: visible;
 }
