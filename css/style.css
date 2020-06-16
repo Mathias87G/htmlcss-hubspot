@@ -67,7 +67,7 @@
   padding: 0 22px;
 }
 
-.language-curtain ul:first-child {
+.language-curtain ul:first-child, .software-curtain ul:first-child {
   padding-top: 13px;
 }
 
@@ -169,7 +169,7 @@
 
 .software-curtain {
   position: absolute;
-  left: 0;
+  left: 0px;
   top: 60px;
   background-color: white;
   border: 1px solid black;
@@ -187,7 +187,6 @@
   float: none;
   width: 360px;
   padding-left: 8px;
-
 }
 
 .software-curtain ul li p {
@@ -197,6 +196,47 @@
 }
 
 .software-curtain ul li:first-child, .software-curtain ul li:nth-child(4) {
+  border-bottom: 1px solid #32495b;
+}
+
+.software-curtain ul:last-child {
+  padding-bottom: 13px;
+}
+
+.resources {
+  position: relative;
+}
+
+.resources-curtain {
+  position: absolute;
+  top: 60px;
+  left: -350px;
+  width: 850px;
+  background-color: white;
+  border: 1px solid #32495b;
+  border-radius: 5px;
+  padding: 0 22px 10px 22px;
+  visibility: hidden;
+}
+
+.row {
+  padding: 10px 0;
+  font-size: 17px;
+}
+
+.resource-card {
+  float: left;
+  width: 33.33333%;
+  line-height: 50px;
+  padding: 0 5px;
+}
+
+.resource-card p {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.row:not(:last-child) {
   border-bottom: 1px solid #32495b;
 }
 
@@ -420,10 +460,6 @@ h2 {
   padding: 50px 10px 0 10px;
 }
 
-.row {
-  color: white;
-}
-
 .up {
   border-bottom: 1px solid white;
   padding-top: 30px;
@@ -633,10 +669,10 @@ border-color: #cbd6e2;
   color: rgb(61, 143, 195);
 }
 
-.language-curtain ul li:hover, .software-curtain ul li:hover {
+.language-curtain ul li:hover, .software-curtain ul li:hover, .resource-card:hover {
   background-color: rgb(161, 192, 203);
 }
 
-.language:hover .language-curtain, .language:hover .triangle, .software:hover .software-curtain {
+.language:hover .language-curtain, .language:hover .triangle, .software:hover .software-curtain, .resources:hover .resources-curtain {
   visibility: visible;
 }
