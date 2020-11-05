@@ -48,6 +48,8 @@
   position: relative
 }
 
+/* tendina language */
+
 .language-curtain {
   position: absolute;
   left: 0;
@@ -83,6 +85,8 @@
   border-left: 1px solid black;
   visibility: hidden;
 }
+
+/* Fine tendina language */
 
 #contacts {
   border-left: 1px solid #cbd6e2;
@@ -163,6 +167,8 @@
   cursor: pointer;
 }
 
+/* Tendina software */
+
 .software {
   position: relative;
 }
@@ -203,6 +209,8 @@
   padding-bottom: 13px;
 }
 
+/* Tendina resources */
+
 .resources {
   position: relative;
 }
@@ -210,7 +218,7 @@
 .resources-curtain {
   position: absolute;
   top: 60px;
-  left: -350px;
+  transform: translateX(-50%);
   width: 850px;
   background-color: white;
   border: 1px solid #32495b;
@@ -222,6 +230,10 @@
 .row {
   padding: 10px 0;
   font-size: 17px;
+}
+
+.row:not(:last-child) {
+  border-bottom: 1px solid #32495b;
 }
 
 .resource-card {
@@ -236,8 +248,23 @@
   line-height: 12px;
 }
 
-.row:not(:last-child) {
-  border-bottom: 1px solid #32495b;
+.partners {
+  position: relative;
+}
+
+.partners-curtain {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.partners-curtain ul li {
+  display: inline-block;
+}
+
+.partners ul li p {
+  font-size: 10px;
+  line-height: 12px;
 }
 
 /* Banner */
